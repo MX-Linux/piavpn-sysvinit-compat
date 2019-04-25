@@ -1,0 +1,12 @@
+#!/bin/sh
+# prerm script for piavpn-sysvinit-compat
+#
+set -e
+# stop daemon
+if [ -x "/etc/init.d/piavpn" ] && [ "$1" = remove ]; then
+	invoke-rc.d piavpn stop || exit $?
+fi
+
+# End 
+
+exit 0

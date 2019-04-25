@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 24 Apr 2019 20:09:55 -0400
+Source: piavpn-sysvinit-compat
+Binary: piavpn-sysvinit-compat
+Architecture: source all
+Version: 19.04.01
+Distribution: mx
+Urgency: medium
+Maintainer: dolphinoracle <dolphinoracle@gmail.com>
+Changed-By: Dolphin Oracle <dolphinoracle@gmail.com>
+Description:
+ piavpn-sysvinit-compat - sysvinit script for piavpn daemon by Private Internet Access
+Changes:
+ piavpn-sysvinit-compat (19.04.01) mx; urgency=medium
+ .
+   * Initial release.
+Checksums-Sha1:
+ 063e8b9d940841441199e1d7d3ae5705fa289905 613 piavpn-sysvinit-compat_19.04.01.dsc
+ 71f7b7816ee7a190433b673d9f45e4b98f857a8d 16496 piavpn-sysvinit-compat_19.04.01.tar.xz
+ 647c4000833512e7f22a61360808a293896d662f 17140 piavpn-sysvinit-compat_19.04.01_all.deb
+ b1c69c184a1bd19d50ba64a4253b09513e3a688a 5083 piavpn-sysvinit-compat_19.04.01_amd64.buildinfo
+Checksums-Sha256:
+ 27f4762e7940699c980673d268f557a4729e810e3738a4241bd5154a7caf428f 613 piavpn-sysvinit-compat_19.04.01.dsc
+ 06b4a23c2c99a3e890e88787b1057a87a6a56e6ca18877a3cf14ffbf2bd5e238 16496 piavpn-sysvinit-compat_19.04.01.tar.xz
+ 500f1340b9052a8a16457098833a456758ca0c4a5387cca52c1b588d34334704 17140 piavpn-sysvinit-compat_19.04.01_all.deb
+ 48058f67a442bb479c41c4757fe5518ec0bcbfe48b8f28ace2377795fb8812a0 5083 piavpn-sysvinit-compat_19.04.01_amd64.buildinfo
+Files:
+ 4bf782eb04159e37922601157378ebb4 613 system optional piavpn-sysvinit-compat_19.04.01.dsc
+ c058dae472f547ba42b0e0515ce878bd 16496 system optional piavpn-sysvinit-compat_19.04.01.tar.xz
+ 1344e31176fed77134a44622c3898cf6 17140 system optional piavpn-sysvinit-compat_19.04.01_all.deb
+ 5a3deff43f37a65c12a5bde3b446f716 5083 system optional piavpn-sysvinit-compat_19.04.01_amd64.buildinfo
