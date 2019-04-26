@@ -1,3 +1,9 @@
+piavpn-sysvinit-compat (19.04.02) mx; urgency=medium
+
+  * revised init script to exit if daemon does not exist
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Thu, 25 Apr 2019 22:27:43 -0400
+
 piavpn-sysvinit-compat (19.04.01) mx; urgency=medium
 
   * Initial release. 

@@ -15,6 +15,9 @@ DAEMON=/opt/piavpn/bin/pia-daemon
 LOGFILE=/var/log/$NAME.log
 export LD_LIBRARY_PATH=/opt/piavpn/lib
 
+##exit gracefully if daemon doesn't exist
+[ -f "$DAEMON" ] || exit 0 
+
 [ -f /lib/init/vars.sh ] && . /lib/init/vars.sh
 [ -f /lib/lsb/init-functions ] && . /lib/lsb/init-functions
 
