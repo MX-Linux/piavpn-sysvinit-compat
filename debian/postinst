@@ -42,8 +42,12 @@ if [ "$1" = "configure" ] || [ "$1" = "abort-upgrade" ]; then
 	if [ -x "/etc/init.d/piavpn" ]; then
         echo "updating symlinks"
 		update-rc.d piavpn defaults >/dev/null
-		echo "starting piavpn"
-        /etc/init.d/piavpn start || exit $?
+		
+		# start daemon if not running
+		if ! /etc/init.d/piavpn status >/dev/null; then
+			echo "starting piavpn"
+			/etc/init.d/piavpn start || exit $?
+		fi
 	fi
 fi
 
